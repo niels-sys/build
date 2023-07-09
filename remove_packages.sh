@@ -32,3 +32,5 @@ sudo apt-get purge -y ubuntuone-client python-ubuntuone-storage*
 
 # Clean the package cache
 sudo apt-get autoclean -y
+
+sudo apt-get autoremove -y
