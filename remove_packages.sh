@@ -3,7 +3,7 @@
 sudo apt update && sudo apt upgrade -y &&
 
 # Remove Rhythmbox
-sudo apt-get remove rhythmbox
+sudo apt-get remove rhythmbox -y
 
 # Remove Thunderbird
 sudo apt-get purge -y thunderbird*
@@ -31,4 +31,4 @@ rm -rf ~/.config/ubuntuone
 sudo apt-get purge -y ubuntuone-client python-ubuntuone-storage*
 
 # Clean the package cache
-sudo apt-get autoclean
+sudo apt-get autoclean -y
