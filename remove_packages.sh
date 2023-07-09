@@ -2,9 +2,6 @@
 
 sudo apt update && sudo apt upgrade -y &&
 
-# Remove Rhythmbox
-sudo apt-get remove rhythmbox -y
-
 # Remove Thunderbird
 sudo apt-get purge -y thunderbird*
 
