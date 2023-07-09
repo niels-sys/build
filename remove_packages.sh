@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt update && sudo apt upgrade -y &&
+
 # Remove Thunderbird
 sudo apt-get purge -y thunderbird*
 
