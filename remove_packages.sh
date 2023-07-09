@@ -27,6 +27,8 @@ rm -rf ~/.config/ubuntuone
 # Remove Ubuntu One client packages
 sudo apt-get purge -y ubuntuone-client python-ubuntuone-storage*
 
+sudo dpkg --remove whoopsie
+
 # Clean the package cache
 sudo apt-get autoclean -y
 
