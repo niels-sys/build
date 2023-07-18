@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Ubuntu
 sudo apt update && sudo apt upgrade -y &&
 
 # Remove Thunderbird
@@ -33,3 +33,5 @@ sudo dpkg --remove whoopsie
 sudo apt-get autoclean -y
 
 sudo apt-get autoremove -y
+
+rm ~/.config/monitors.xml
