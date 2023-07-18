@@ -34,4 +34,5 @@ sudo apt-get autoclean -y
 
 sudo apt-get autoremove -y
 
+# Resetting an out-of-range resolution
 rm ~/.config/monitors.xml
