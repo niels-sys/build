@@ -30,6 +30,7 @@ sudo apt-get purge -y ubuntuone-client python-ubuntuone-storage*
 # Remove whoopsie purge config files
 sudo dpkg --remove whoopsie
 sudo dpkg --purge whoopsie
+sudo rm -r -f /var/lib/whoopsie
 
 # Clean the package cache
 sudo apt-get autoclean -y
